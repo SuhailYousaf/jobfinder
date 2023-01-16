@@ -1,0 +1,273 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar-brand{
+   font-size:2rem ;
+   color: rgb(248, 0, 0);
+   font-family: 'Caveat', cursive;
+}
+.nav-link{
+    color: rgb(10, 10, 94);
+   
+
+}
+.nav-link:hover{
+    color: red;
+    transition: 0.3s;
+}
+.nav-item{
+color:rgb(7, 7,78) ;
+font-weight: 500;
+padding-left: 35px;
+}
+.btn0{
+    height:35px ;
+    width: 135px;
+    outline: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition:0.4s;
+    background-color:rgb(248, 83, 83);
+
+}
+.btn0:hover{
+    background-color: rgb(248, 0, 0);
+    transition: 0.4s;
+}
+.btn1{
+    height:35px ;
+    width: 135px;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    transition:0.4s;
+    color: red;
+    border:solid 2px rgb(248, 83, 83);
+
+}
+.btn1:hover{
+    background-color:rgb(248, 0, 0) ;
+    transition: 0.4s;
+    color: white;
+}
+
+/* ==========main======== */
+
+.main{
+background:url(/images/main1copy.jpg)no-repeat;
+background-size: cover;
+min-height: 95vh;
+width: 100%;
+}
+.main.h1{
+    font-size: 5rem;
+    font-weight: 800;
+    color:rgb(7, 7, 78) ;
+    
+}
+.main input{
+    height: 70px;
+    width: 70%;
+    border:none;
+    padding: 15px;
+    cursor: ;
+}
+.main input:active{
+   background-color: gray;
+   transition: 0.4s;
+
+}
+.btn2{
+    height: 71px;
+    width: 25%;
+    background-color: rgb(243, 73, 73);
+    color: white;
+    cursor: pointer;
+    transition: 0.4s;
+    border: none;
+  margin-left: -4px;
+}
+.btn2:hover{
+    background-color:rgb(248, 0, 0) ;
+    transition: 0.4s;
+    color: white;
+}
+
+/* ========category=========   */
+
+.red{
+    color: red;
+}
+.cate h1{
+    font-size:3.5rem;
+    color:rgb(7,7, 78)
+
+}
+.cate .card:hover{
+    color: red;
+    cursor: pointer;
+    transition: 0.4s;
+    box-shadow: 3px 7px 24px -7px rgba(0,0,0,0.75);
+-webkit-box-shadow: 3px 7px 24px -7px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 7px 24px -7px rgba(0,0,0,0.75);
+
+}
+.btn3{
+    height: 70px;
+    width: 30%;
+    border: solid 1px rgb(130, 130, 231);
+    border-radius: 5px;
+    color: rgb(130,130,231);
+    transition: 0.4s;  
+}
+.btn3:hover{
+    background-color: rgb(102, 102, 214);
+    color: white;
+    border:none;
+    transition: 0.4s;
+}
+
+/* ================================Resume================================ */
+
+.resume{
+    background:linear-gradient(rgba(4,11,75,0.79),rgba(4,26,100,0.73 )),url(/images/woman.jpg);
+    background-size:cover ;
+height: 90vh;
+width: 100%;
+
+}
+.resume h1{
+    font-size: ;
+}
+.btn4{
+    height: 50px;
+    width:50%;
+    border: solid 1px rgb(102, 102, 214);
+    border-radius: 10px;
+    color: white;
+    background: transparent;
+}
+.btn4:hover{
+  background-color: rgb(102, 102, 214);  
+  color: white;
+  transition: 0.4s;
+}
+
+/* ==============================job=============================== */
+
+.job h1{
+    font-size:3.5rem;
+color: rgb(7, 7, 78);
+}
+.btn5{
+    height:60px;
+    width: 30%;
+    background-color: rgb(243,73 ,73);
+    color: white;
+    border: solid 1px black;
+   border-radius: 5px;
+
+}
+.btn5:hover{
+    background-color: rgb(248, 0, 0);
+    color: white;
+    transition: 0.4s;
+
+}
+
+/* =========================apply======================== */
+.apply{
+    background: url(/images/cool-background.png);
+    background-size: cover;
+    /* height: 110vh; */
+    width: 100%;
+}
+.apply .card{
+    background-color: rgba(4, 26, 100, 0.801);
+    color: white;
+}
+.cirl{
+    height: 100px;
+    width: 100px;
+    background: white;
+    border-radius: 50%;
+    display: inline-block;
+   
+}
+.cirl img{
+    border-radius:50%;
+    
+}
+/* ==========================slider=================== */
+.slider{
+    background-color: rgba(0,0,0,0.75);
+    
+}
+.avatar{
+    height: 130px;
+    width:130px;
+    border-radius: 50%;
+}
+.perac{
+   font-size: 1.6rem ;
+   font-weight: 300;
+}
+.btn6{
+    height:60px;
+    width: 30%;
+    outline: none;
+    border: none;
+    background-color: rgb(243,73 ,73);
+    cursor: pointer;
+    transition: 0.4s;
+    color: white;
+    border: solid 1px black;
+   border-radius: 5px;
+
+}
+.btn6:hover{
+    background-color: green;
+    border: none;
+    outline: none;
+    color: white;
+    transition: 0.4s;
+}
+
+/* ==========================footer============================ */
+
+.footer{
+   background:#121626;
+   color: white;
+   
+}
+.footer p{
+    margin: 0;
+    color: #69696b;
+}
+.links{
+    color:#6b6b72;
+
+}
+.link:hover{
+    color: #ff2962;
+    padding-left: 10px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.footer input{
+    border: solid 1px black;
+    border-radius: 5px;
+}
+.btn7{
+   width: 50px;
+   border: 1px solid black;
+   border-radius: 5px;
+}
+.btn7:hover{
+    background-color:  rgb(248, 0, 0);
+    transition: 0.46;
+    color: white;
+}
